@@ -138,7 +138,7 @@ const Experiences = () => {
                                     initial={{ opacity: 0, y: -30 }}
                                     animate={{ opacity: 1, y: 10 }}
                                     transition={{ duration: 0.4, ease: "easeInOut" }}
-                                    className=" h-30 bg-gradient-to-br  from-gray-800 to-gray-900 rounded-2xl shadow-lg p-5"
+                                    className=" h-fit bg-gradient-to-br  from-gray-800 to-gray-900 rounded-2xl shadow-lg p-5"
                                 >
                                     <div className="whitespace-normal h-full rounded-2xl w-auto" >
                                         <p className="text-gray-200 text-md whitespace-pre-line">  {exp.description}</p>
