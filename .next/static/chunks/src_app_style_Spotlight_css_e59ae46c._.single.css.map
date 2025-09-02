@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/style/Spotlight.css"],"sourcesContent":[".card-spotlight {\r\n    position: relative;\r\n    /* border-radius: 1.5rem; */\r\n    /* border: 1px solid #222; */\r\n    padding: 0;\r\n    overflow: hidden;\r\n    --mouse-x: 50%;\r\n    --mouse-y: 50%;\r\n    --spotlight-color: rgba(255, 255, 255, 0.05);\r\n}\r\n\r\n.card-spotlight::before {\r\n    content: \"\";\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 80%);\r\n    opacity: 0;\r\n    transition: opacity 0.5s ease;\r\n    pointer-events: none;\r\n}\r\n\r\n.card-spotlight:hover::before,\r\n.card-spotlight:focus-within::before {\r\n    opacity: 0.6;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAWA;;;;;;;;;;;;;AAaA"}}]
-}
